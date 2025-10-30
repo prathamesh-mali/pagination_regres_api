@@ -1,16 +1,44 @@
-# elyx_task
+# Pagination ReqRes API
 
-A new Flutter project.
+A simple Flutter app demonstrating **pagination** using the [ReqRes API](https://reqres.in/).
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Fetches paginated user data from ReqRes API
+* Load more on scroll
+* Clean architecture (data, domain, presentation)
+* State management using Cubit/BLoC
+* Handles loading and error states
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Flutter
+* Dio / Retrofit for network calls
+* BLoC / Cubit for state management
+* Clean Architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+```bash
+git clone https://github.com/prathamesh-mali/pagination_regres_api.git
+cd pagination_regres_api
+flutter pub get
+flutter run
+```
+
+## Folder Structure
+
+```
+lib/
+ ├── data/
+ ├── domain/
+ └── presentation/
+```
+
+## API Used
+
+[https://reqres.in/api/users](https://reqres.in/api/users)
+
+## Author
+
+Prathamesh Mali
